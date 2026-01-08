@@ -1,6 +1,5 @@
-SELECT "birth_city",
-       "birth_state",
-       "birth_country"
+SELECT "first_name",
+  "last_name"
 FROM "players"
 WHERE "first_name" IS 'Jackie'
   AND "last_name" IS 'Robinson';

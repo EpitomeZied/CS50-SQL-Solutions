@@ -1,6 +1,8 @@
-SELECT "city", COUNT("id")
-FROM schools
-WHERE type is 'Public School'
-Group By city
-HAVING COUNT("ID") <= 3
-ORDER BY COUNT("id") DESC, city;
+SELECT "city",
+    COUNT("id")
+FROM "schools"
+WHERE "type" IS 'Public School'
+GROUP BY "city"
+HAVING COUNT("id") <= 3
+ORDER BY COUNT("id") DESC,
+    "city";

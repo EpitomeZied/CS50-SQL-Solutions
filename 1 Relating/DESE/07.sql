@@ -1,5 +1,7 @@
-select name
-from schools
-where district_id is (select id
-                      from districts
-                      where name is 'Cambridge');
+SELECT "name"
+FROM "schools"
+WHERE "district_id" IS (
+        SELECT "id"
+        FROM "districts"
+        WHERE "name" IS 'Cambridge'
+    );

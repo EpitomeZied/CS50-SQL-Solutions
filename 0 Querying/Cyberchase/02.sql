@@ -1,4 +1,4 @@
-select "season" ,
-       "title"
+SELECT "season",
+    "title"
 FROM "episodes"
-WHERE "episode_in_season" is 1;
+WHERE "episode_in_season" IS 1;

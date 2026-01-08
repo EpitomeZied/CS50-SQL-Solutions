@@ -1,3 +1,3 @@
 SELECT "title"
-from "episodes"
-WHERE topic is NULL ;
+FROM "episodes"
+WHERE "topic" IS NULL;

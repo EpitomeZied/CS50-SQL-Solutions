@@ -1,6 +1,6 @@
-SELECT "name", "per_pupil_expenditure"
+SELECT "name",
+    "per_pupil_expenditure"
 FROM "districts"
-         JOIN "expenditures" ON
-    "districts"."id" = "expenditures"."district_id"
-ORDER BY "expenditures"."per_pupil_expenditure" desc
+    JOIN "expenditures" ON "districts"."id" = "expenditures"."district_id"
+ORDER BY "expenditures"."per_pupil_expenditure" DESC
 LIMIT 10;

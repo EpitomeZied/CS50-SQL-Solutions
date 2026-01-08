@@ -1,4 +1,4 @@
 SELECT "title"
 FROM "episodes"
-WHERE "season" is 6
-  and "air_date" LIKE '2007%';
+WHERE "season" IS 6
+  AND "air_date" LIKE '2007%';
